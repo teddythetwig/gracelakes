@@ -1,0 +1,2 @@
+-arr.each do |item|
+  = render item

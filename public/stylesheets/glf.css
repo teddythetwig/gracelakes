@@ -1,0 +1,29 @@
+#wrap{
+  width:970px;
+  margin:0 auto;
+}
+
+#social{
+  float:right;
+}
+#header{
+  float:right;
+  margin:10px;
+  
+}
+p{
+  vertical-align:bottom
+}
+.logo{
+  float:left
+  vertical-align:text-bottom;
+  vertical-align:bottom;
+}
+.clear{
+  clear:both;
+  height:0;
+  width:100%;
+}
+.bottom-align{
+  position:relative;
+}

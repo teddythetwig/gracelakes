@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+
+#Don't need these yet
+one:
+  title: Decadent Roses
+  number: GLF0000
+  description: Some beautiful roses.
+  category: custom
+  image: images/sample.jpg
+#
+two: {}
+#  column: value

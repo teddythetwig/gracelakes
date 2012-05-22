@@ -1,0 +1,8 @@
+.item
+  .image
+    =image_tag item.image, :alt => ""
+  .text
+    p.price
+      =item.price
+    p.buy 
+      = Buy Now

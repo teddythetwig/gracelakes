@@ -1,0 +1,8 @@
+#master-footer.clearfix.colelem
+  / group
+  #u6165-8.clearfix.grpelem
+    / content
+    %p#u6165-2 © Grace Lakes Florist       1074 5th Ave S, Naples, FL 34102       Toll Free: 800-368-1163      Local: 239-262-6536     Email: orders@gracelakesflorist.com
+    %p#u6165-6
+      %span#u6165-3 website design:
+      %a.nonblock{:href => "http://www.studiopalio.com"} studiopalio.com

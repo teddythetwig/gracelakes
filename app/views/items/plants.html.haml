@@ -1,0 +1,4 @@
+.plants_title
+  = image_tag "plants_title.jpg"
+-@items.each_slice(4).to_a do |a|
+  =render :partial => "items/row", :locals => {:arr => a}
