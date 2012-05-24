@@ -2,28 +2,30 @@
   width:970px;
   margin:0 auto;
 }
-
 #social{
   float:right;
 }
-#header{
-  float:right;
-  margin:10px;
-  
+#logo{
+  float:left;
 }
-p{
-  vertical-align:bottom
-}
-.logo{
-  float:left
-  vertical-align:text-bottom;
+#logo a{
   vertical-align:bottom;
+}
+#bottom-align{
+  position:relative;  
+}
+#categories {
+    top: 132px;
+    left: 312px;
+    position:absolute;
+}
+.header {
+    display: inline;
+    margin:10px;
 }
 .clear{
   clear:both;
   height:0;
   width:100%;
 }
-.bottom-align{
-  position:relative;
-}
+

@@ -9,15 +9,15 @@
     =image_tag("social_fb.png")
 
 .clear
-.bottom-align  
-  .logo
+#bottom-align  
+  #logo
     = link_to image_tag("GLF_logo.png",:alt => ""),"/"
-  
-  .collections#header
-    %p="Collections"
-  .events#header
-    %p="Events & Weddings"
-  .about#header
-    %p="About Us"
+  #categories
+    #collections.header
+      ="Collections"
+    #events.header
+      ="Events & Weddings"
+    #about.header
+      ="About Us"
 .clear
 
