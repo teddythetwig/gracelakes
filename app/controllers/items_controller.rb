@@ -23,6 +23,7 @@ class ItemsController < ApplicationController
 
   def new
     @item = Item.new
+   
     respond_with @item
   end
   

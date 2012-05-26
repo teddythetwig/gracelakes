@@ -1,5 +1,5 @@
 class ItemsController < ApplicationController
-  #before_filter :authenticate_user!, :only => [:new,:create]
+  before_filter :authenticate_user!, :only => [:new,:create]
   respond_to :html
   def seasonal
     @items = Item.get_seasonal
@@ -23,6 +23,7 @@ class ItemsController < ApplicationController
 
   def new
     @item = Item.new
+    
     respond_with @item
   end
   
